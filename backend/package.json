@@ -5,8 +5,9 @@
   "main": "server.js",
   "type": "module",
   "scripts": {
-    "$comment":"test: echo \"Error: no test specified\" && exit 1",
-    "server": "nodemon server.js"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
   },
   "author": "Manoj.A",
   "license": "ISC",
